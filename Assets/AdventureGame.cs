@@ -6,16 +6,33 @@ using UnityEngine.Scripting;
 public class AdventureGame : MonoBehaviour
 {
     [SerializeField] Text textComponent;
-    [SerializeField] State state;
-    // Start is called before the first frame update
+    [SerializeField] State startingState;
+    KeyCode[] choicesButtons = { KeyCode.Alpha1, KeyCode.Alpha2, KeyCode.Alpha3 };
+
+    State state;
     void Start()
     {
+        state = startingState;
+
         textComponent.text = state.getStory();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        ManageState();
+    }
+
+    void ManageState()
+    {
+        for (int i = 0; i < state.getNextStates().Length; i++)
+        {
+            if (Input.GetKeyDown(choicesButtons[i]))
+            {
+                state = state.getNextStates()[i];
+                textComponent.text = state.getStory();
+                break;
+            }
+        }
     }
 }
