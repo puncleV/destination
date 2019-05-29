@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd3fbb4c2866a5442996a39c8a2a93a6, type: 3}
+  m_Name: CheckedThingInWater
+  m_EditorClassIdentifier: 
+  storyText: 'Your legs are full under water, you finally get to this thing and you
+    realize that it is a body... You are turn body around to see it''s face and see
+    yourself...
+
+
+    1. continue'
+  nextStates:
+  - {fileID: 11400000, guid: ccbf3cf374192d742aa1b4cb36e48729, type: 2}
