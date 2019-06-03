@@ -20,4 +20,5 @@ MonoBehaviour:
 
 
     1. SO AMAZING GAME, LET ME PLAY AGAIN PLEASE!'
-  nextStates: []
+  nextStates:
+  - {fileID: 11400000, guid: d7d2ebb1e590d4c46a7e95029aafcc14, type: 2}

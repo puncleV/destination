@@ -19,5 +19,8 @@ MonoBehaviour:
 
     2. drink water from the sea
 
-    2. try to find something to make fire to collect some water from the sea'
-  nextStates: []
+    2. try to find something to make fire to make some pure water'
+  nextStates:
+  - {fileID: 11400000, guid: 48e6e1af14a691942b361317fff5ff37, type: 2}
+  - {fileID: 11400000, guid: 7252e7c910ffa884cb48d1c71a6a5ff7, type: 2}
+  - {fileID: 11400000, guid: 92e5ff2502f814b47ab9a6a638960893, type: 2}

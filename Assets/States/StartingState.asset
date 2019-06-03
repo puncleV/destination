@@ -19,5 +19,5 @@ MonoBehaviour:
     And I am really thirsty.\r\n\r\nI see a bottle of water near to me...\r\n\r\n1.
     Take a bottle to drink\r\n2. Check my body and look around"
   nextStates:
-  - {fileID: 11400000, guid: 9ae67cfe5a38d5b40a60ade9f7fbce33, type: 2}
   - {fileID: 11400000, guid: ab065cf3951cecb44a2c7b9ab3249328, type: 2}
+  - {fileID: 11400000, guid: 9ae67cfe5a38d5b40a60ade9f7fbce33, type: 2}
